@@ -1,0 +1,16 @@
+<!-- الصفحة الرئيسية -->
+<div class="hero-banner">مرحبًا بكم في متجر الفخامة</div>
+
+<div class="section new-arrivals">
+  <h2>وصل حديثًا</h2>
+  {{#each new_products}}
+    {{> product-card }}
+  {{/each}}
+</div>
+
+<div class="section best-sellers">
+  <h2>الأكثر مبيعًا</h2>
+  {{#each best_sellers}}
+    {{> product-card }}
+  {{/each}}
+</div>
