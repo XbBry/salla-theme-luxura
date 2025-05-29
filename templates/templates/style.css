@@ -1,0 +1,27 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #fff0f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.hero-banner {
+  background-color: #e91e63;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+.section {
+  padding: 2rem;
+}
+.product-card {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 1rem;
+  text-align: center;
+}
+footer {
+  background: #f8f8f8;
+  text-align: center;
+  padding: 1rem;
+}
